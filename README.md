@@ -1,5 +1,5 @@
 # Consumer-LLM-Benchmark
-Simple mnual benchmark for local models run on consumer hardware.
+Simple manual benchmark for local models run on consumer hardware.
 
 All tests are performed on single GPUs hardware, up to a 4090. The test consist of 20 questions, 10 questions regarding general reading comprehension, common sense and test the usual limitations of large language models. This first set of questions is easy for humans but hard for a LLM. The next 10 questions are more complex, and involve a chain of thought reasoning, deductive and inductive reasoning.
 
