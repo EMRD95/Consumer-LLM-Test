@@ -1,0 +1,58 @@
+#gradeWidgetsContainer {
+    margin-bottom: 20px;
+}
+
+.gradeWidget {
+    margin-bottom: 10px;
+}
+
+.radio-button {
+    visibility: hidden;
+    position: absolute;
+}
+
+.radio-button + label {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    position: relative; /* Needed for absolute positioning of pseudo-elements */
+}
+
+/* Gradient colors for each button */
+.radio-button[value="0"] + label {
+    background-color: #ff0000; /* Red */
+}
+.radio-button[value="1"] + label {
+    background-color: #ff8000; /* Intermediate Color */
+}
+.radio-button[value="2"] + label {
+    background-color: #ffff00; /* Intermediate Color */
+}
+.radio-button[value="3"] + label {
+    background-color: #80ff00; /* Intermediate Color */
+}
+.radio-button[value="4"] + label {
+    background-color: #00ff00; /* Green */
+}
+
+.radio-button:checked + label::after {
+    content: '✔'; /* Check mark */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    color: white; /* Check mark color */
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000; /* Black stroke effect */
+}
+
+.gradeNumLabel {
+    font-weight: bold;
+    margin-right: 10px;
+}
