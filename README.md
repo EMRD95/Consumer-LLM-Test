@@ -13,7 +13,8 @@ The questions are provided without answers, they are either hand crafted, modifi
 
 # Benchmark Results
 
-| Model | Grade | tk/s | Results |
-|----------|----------|----------|----------|
-| ChatGPT4 | 12.25 | na | [Details](https://github.com/EMRD95/Consumer-LLM-Benchmark/blob/main/grades/ChatGPT4grades-11-26-2023.json) |
-| ChatGPT3.5 | 9.00 | na | [Details](https://github.com/EMRD95/Consumer-LLM-Benchmark/blob/main/grades/ChatGPT3.5grades-11-26-2023.json) |
+| Model | Grade | tk/s | Context | Results |
+|----------|----------|----------|----------|----------|
+| [ChatGPT4](https://chat.openai.com/) | 12.25 | na | na | [Details](https://github.com/EMRD95/Consumer-LLM-Benchmark/blob/main/grades/ChatGPT4grades-11-26-2023.json) |
+| [ChatGPT3.5](https://chat.openai.com/) | 9.00 | na | na | [Details](https://github.com/EMRD95/Consumer-LLM-Benchmark/blob/main/grades/ChatGPT3.5grades-11-26-2023.json) |
+| [LoneStriker_Yi-34B-200K-4.65bpw-h6-exl2](https://huggingface.co/LoneStriker/Yi-34B-200K-4.65bpw-h6-exl2) | 4.50 | 20 | 4096 | [Details](https://github.com/EMRD95/Consumer-LLM-Benchmark/blob/main/grades/LoneStriker_Yi-34B-200K-4.65bpw-h6-exl2grades-11-26-2023.json) |
