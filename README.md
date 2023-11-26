@@ -13,7 +13,7 @@ The questions are provided without answers, they are either hand crafted, modifi
 
 # Benchmark Results
 
-| Model | Grade | tk/s | Context | Results |
+| Model | Grade/20 | tk/s | Context | Results |
 |----------|----------|----------|----------|----------|
 | [ChatGPT4](https://chat.openai.com/) | 12.25 | na | na | [Details](https://github.com/EMRD95/Consumer-LLM-Benchmark/blob/main/grades/ChatGPT4grades-11-26-2023.json) |
 | [ChatGPT3.5](https://chat.openai.com/) | 9.00 | na | na | [Details](https://github.com/EMRD95/Consumer-LLM-Benchmark/blob/main/grades/ChatGPT3.5grades-11-26-2023.json) |
