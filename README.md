@@ -5,7 +5,7 @@ All tests are performed on a single GPU hardware, up to a 3090. The test consist
 
 The questions are asked up to 4 times to the LLM, if, for instance, if it's wrong, inconclusive, or it's right but seemingly a placebo. A is assessed on this basis with a simple check box [static web page](https://emrd95.github.io/Consumer-LLM-Benchmark/). The LLM can answer directly, or provide a python script to solve the answer to more complex math problems. Some questions are successive and manipulate context to try to output an erroneous answer (question 1,2,3). For non-successive questions, the context is cleaned to avoid that the LLM "figures out" that it has to answer to puzzles. It's better to clean context for question 6, 7 and 8 for instance, in order to generate an erroneous answer with the most powerful models by opening a new chat or reloading the model.
 
-All tests are run on [oobabooga](https://github.com/oobabooga/text-generation-webui) on a single GPU hardware. A few popular SaaS LLMs are added for comparison.
+All tests are run on [oobabooga](https://github.com/oobabooga/text-generation-webui) on a single GPU hardware with the best possible parameters for each models. A few popular SaaS LLMs are added for comparison.
 
 The goal is simply to provide a general view of local models capabilities outside the scope of automated benchmarks. It's also a good way to list available models.
 
