@@ -11,7 +11,7 @@ The goal is simply to provide a general view of local models capabilities outsid
 
 The questions are provided without answers, they are either handcrafted, modified, taken from math tests or social media. Some can be subject to copyright
 
-# Benchmark Results
+# Test Results
 
 | Model | Grade/20 | tk/s | Context | Results | Date |
 |----------|----------|----------|----------|----------|----------|
