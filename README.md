@@ -1,4 +1,4 @@
-# Consumer-LLM-Benchmark
+# Consumer-LLM-Test
 A simple manual benchmark for local models run on consumer hardware.
 
 All tests are performed on a single GPU hardware, up to a 3090. The test consists of [20 questions](https://github.com/EMRD95/Consumer-LLM-Benchmark/blob/main/LLMs%20Benchmark%20questions%20no%20answers.pdf), 10 questions regarding general reading comprehension, common sense and questions that test the usual limitations of large language models. The next 10 questions are more complex, and involve a chain of thought reasoning, deductive and inductive reasoning.
